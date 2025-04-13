@@ -29,8 +29,8 @@ During the splitting process, only one node (either left or right node) is chose
 
 It is based on which split provides the higheset information gain, a measure of how much a split improves the purity of the node. There are two commonly used criteria for calculating information gain:
 
-1.  Gini index $$1 - \Sigma (p_i)^2 $$ 
-2. entropy $$- \Sigma p_i log_2(p_i) $$
+1.  Gini index = $$1 - \Sigma (p_i)^2 $$ 
+2. entropy = $$- \Sigma p_i log_2(p_i) $$
 
 Where $p_i$ is the probability of each class. In this source code, we specify the model to use entropy.
 
